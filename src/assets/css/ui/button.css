@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap");
+
+.button {
+  border: none;
+  outline: none;
+  padding: 16px 32px;
+
+  border-radius: 50px;
+
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.5px;
+
+  background: #000;
+  color: #fff;
+
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.button:hover {
+  background: #ff5733;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
