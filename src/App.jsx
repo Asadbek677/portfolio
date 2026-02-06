@@ -1,14 +1,18 @@
 import React from "react";
-import { Header, Intro, Works, About } from "./layout";
+import { Header, Intro, Works, About, Resume, Footer } from "./layout";
 
 const App = () => {
   return (
-    <div className="container">
-      <Header />
-      <Intro />
-      <Works />
-      <About />
-    </div>
+    <main>
+      <div className="container">
+        <Header />
+        <Intro />
+        <Works />
+        <About />
+        <Resume />
+      </div>
+      <Footer />
+    </main>
   );
 };
 

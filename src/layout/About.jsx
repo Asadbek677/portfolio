@@ -17,6 +17,8 @@ const About = () => {
       </div>
       <div className="about__image">
         <img src="./fake.jpg" alt="About Me" />
+        <span></span>
+        <span></span>
       </div>
     </section>
   );
