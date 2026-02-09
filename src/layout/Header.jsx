@@ -13,18 +13,20 @@ const Header = () => {
   };
 
   return (
-    <div className="header">
-      <div>
-        <h1 className="header_logo">Web Developer</h1>
-        <h1 className="header_logo-mb">WB</h1>
-      </div>
+    <header className="header">
+      <div className="header__inner">
+        <div>
+          <h1 className="header_logo">Web Developer</h1>
+          <h1 className="header_logo-mb">WB</h1>
+        </div>
 
-      <NavBar
-        btnClick={() => setNavActive(!navActive)}
-        handleScroll={handleScroll}
-      />
+        <NavBar
+          btnClick={() => setNavActive(!navActive)}
+          handleScroll={handleScroll}
+        />
+      </div>
       <NavBarMb active={navActive} />
-    </div>
+    </header>
   );
 };
 

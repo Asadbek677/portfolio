@@ -1,3 +1,43 @@
+@media screen and (max-width: 1000px) {
+  /* header styles */
+  .header_logo {
+    display: none;
+  }
+  .header_logo-mb {
+    display: block;
+  }
+
+  /* intro styles */
+  .intro h1 {
+    font-size: 36px;
+  }
+  .intro p {
+    font-size: 18px;
+  }
+
+  /* about styles */
+  .about__title {
+    font-size: 32px;
+  }
+  .about__description {
+    font-size: 18px;
+  }
+
+  /* resume styles */
+  .resume__title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .resume__card-title {
+    font-size: 16px;
+  }
+
+  .resume__card-content {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 768px) {
   /* header styles */
   .header_logo {
@@ -18,9 +58,73 @@
   .intro p {
     font-size: 16px;
   }
+
+  /* about styles */
+  .about {
+    flex-wrap: wrap;
+    padding: 100px 0;
+  }
+
+  .about__info {
+    width: 100%;
+    text-align: center;
+
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .about__title {
+    font-size: 28px;
+  }
+  .about__description {
+    font-size: 16px;
+  }
+
+  .about__image {
+    margin: 0 auto;
+  }
+
+  /* resume styles */
+
+  .resume {
+    margin-bottom: 60px;
+  }
+
+  .resume__title {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .resume__card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resume__card-title {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .resume__card-content {
+    width: 100%;
+    padding: 10px 0;
+  }
 }
 
+/* =============================================================== */
+
 @media (max-width: 450px) {
+  /* header styles */
+
+  .header_logo {
+    display: none;
+  }
+
+  .header_logo-mb {
+    display: block;
+  }
+
   /* navigation styles */
   .nav-bar {
     flex-direction: column;
@@ -46,7 +150,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: 1;
   }
 
   .nav-bar-mb .nav-links {
@@ -62,7 +166,7 @@
   }
 
   .nav-bar-mb .nav-links.active li a {
-    font-size: 24px;
+    font-size: 16px;
   }
   .nav-bar-mb .nav-links.active li {
     padding: 10px 20px;
@@ -74,5 +178,27 @@
   }
   .intro p {
     font-size: 14px;
+  }
+
+  /* about styles */
+
+  .about__info {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .about__title {
+    font-size: 24px;
+  }
+
+  .about__description {
+    font-size: 14px;
+  }
+
+  .about__image img {
+    width: 100%;
+    margin: 0 auto;
   }
 }
