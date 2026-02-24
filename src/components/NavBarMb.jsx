@@ -3,7 +3,7 @@ const NavBarMb = ({ active, btnClick }) => {
     <nav className="nav-bar-mb hidden">
       <ul className={`nav-links ${active ? "active" : ""}`}>
         <li onClick={btnClick}>
-          <a href="#work">Work</a>
+          <a href="#works">Work</a>
         </li>
         <li onClick={btnClick}>
           <a href="#about">About</a>

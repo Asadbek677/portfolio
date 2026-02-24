@@ -1,14 +1,14 @@
-const NavBar = ({ btnClick, handleScroll }) => {
+const NavBar = ({ btnClick }) => {
   return (
     <nav className="nav-bar">
       <ul className="nav-links">
-        <li onClick={handleScroll}>
-          <a href="#work">Work</a>
+        <li>
+          <a href="#works">Work</a>
         </li>
-        <li onClick={handleScroll}>
+        <li>
           <a href="#about">About</a>
         </li>
-        <li onClick={handleScroll}>
+        <li>
           <a href="#resume">Resume</a>
         </li>
       </ul>
